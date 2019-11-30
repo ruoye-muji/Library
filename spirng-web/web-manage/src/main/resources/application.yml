@@ -1,0 +1,10 @@
+server:
+  port: 8088
+dubbo:
+  registry:
+    address: 106.54.50.236:2181
+    protocol: zookeeper
+  protocol:
+    port: 20881
+  application:
+    name: book-web
